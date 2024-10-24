@@ -14,11 +14,8 @@ filetype plugin indent on
 " Start NERDTree 
 autocmd VimEnter * NERDTree
 
-" Open a terminal at start below the tree
-autocmd VimEnter * below terminal
-
 " Enable line numbers
-set number
+set number relativenumber
 
 " Enable syntax highlighting
 syntax on
@@ -40,5 +37,3 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" create another windows verticaly
-vertical split
